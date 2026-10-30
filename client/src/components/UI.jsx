@@ -1,0 +1,10 @@
+import { useState } from 'react'; import { Search, Plus, X, LoaderCircle } from 'lucide-react';
+export function PageHeader({eyebrow,title,subtitle,action, onAction}){return <div className="page-header"><div><div className="eyebrow">{eyebrow||'STAFFSYNC WORKSPACE'}</div><h1>{title}</h1><p>{subtitle}</p></div>{action&&<button className="btn btn-primary" onClick={onAction}><Plus size={17}/>{action}</button>}</div>}
+export function Panel({title,subtitle,children,action}){return <section className="panel"><div className="panel-head"><div><h3>{title}</h3>{subtitle&&<p>{subtitle}</p>}</div>{action}</div>{children}</section>}
+export function Status({value}){return <span className={`status status-${String(value||'pending').toLowerCase()}`}>{value||'Pending'}</span>}
+export function Empty({text='Nothing to show yet.'}){return <div className="empty-state"><div className="empty-icon"><Search size={20}/></div><b>{text}</b><span>New items will appear here.</span></div>}
+export function Spinner(){return <div className="spinner"><LoaderCircle size={20}/> Loading…</div>}
+export function Modal({title,onClose,children}){return <div className="modal-backdrop" onMouseDown={e=>e.target===e.currentTarget&&onClose()}><div className="modal"><div className="modal-head"><h2>{title}</h2><button className="icon-button" onClick={onClose}><X size={19}/></button></div>{children}</div></div>}
+export function Field({label,children}){return <label className="field"><span>{label}</span>{children}</label>}
+export function Notice({message,type='error',onClose}){if(!message)return null;return <div className={`notice ${type}`}>{message}{onClose&&<button onClick={onClose}>×</button>}</div>}
+export function useRequest(){const [busy,setBusy]=useState(false);const [error,setError]=useState('');const run=async(fn)=>{setBusy(true);setError('');try{return await fn()}catch(e){setError(e.response?.data?.message||e.message||'Something went wrong');return null}finally{setBusy(false)}};return {busy,error,setError,run};}
