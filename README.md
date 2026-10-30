@@ -1,15 +1,33 @@
-# StaffSync – HR Management System
+# ✨ StaffSync – HR Management System
 
-A full-stack Human Resource Management System built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. StaffSync simplifies employee management, attendance tracking, leave management, announcements, and training activities through role-based dashboards.
+### 👥 Bringing People, Processes & Productivity Together!
+
+A full-stack **Human Resource Management System** built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**.
+
+StaffSync simplifies employee management, attendance tracking, leave management, announcements, and training activities through intuitive, role-based dashboards.
+
 ---
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://staff-sync-k4e7.onrender.com/)
+## 🌐 Explore StaffSync
 
-## Live Demo
+<p align="center">
+  <a href="https://staff-sync-k4e7.onrender.com/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_StaffSync-16a34a?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <a href="https://drive.google.com/file/d/1vPTs3HmkX8ihgqln2qSnxZTaM0Yr5yTk/view?usp=sharing">
+    <img src="https://img.shields.io/badge/▶️_Demo_Video-Watch_Now-2563eb?style=for-the-badge" alt="Demo Video"/>
+  </a>
+</p>
 
-[Click here to view StaffSync](https://staff-sync-k4e7.onrender.com/)
+### 🚀 Live Application
+🔗 [**Launch StaffSync**](https://staff-sync-k4e7.onrender.com/)
 
-----
+### 🎬 Project Demo Video
+📺 [**Watch the StaffSync Demonstration**](https://drive.google.com/file/d/1vPTs3HmkX8ihgqln2qSnxZTaM0Yr5yTk/view?usp=sharing)
+
+---
+
+### 💡 Manage Smarter. Work Better. Grow Together. 🌱
 
 ## 🚀 Project Overview
 
