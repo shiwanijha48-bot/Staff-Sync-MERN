@@ -29,6 +29,8 @@ StaffSync simplifies employee management, attendance tracking, leave management,
 
 ### 💡 Manage Smarter. Work Better. Grow Together. 🌱
 
+----
+
 ## 🚀 Project Overview
 
 StaffSync is designed to centralize HR operations and improve communication between employees, managers, and HR personnel.
