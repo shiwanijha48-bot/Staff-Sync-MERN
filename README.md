@@ -1,6 +1,15 @@
 # StaffSync – HR Management System
 
 A full-stack Human Resource Management System built using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. StaffSync simplifies employee management, attendance tracking, leave management, announcements, and training activities through role-based dashboards.
+---
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://staff-sync-k4e7.onrender.com/)
+
+## Live Demo
+
+[Click here to view StaffSync](https://staff-sync-k4e7.onrender.com/)
+
+----
 
 ## 🚀 Project Overview
 
